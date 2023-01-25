@@ -1,0 +1,276 @@
+* {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+   img {
+    width: 70px;
+    margin-left: -20%;
+   }
+
+   h1 {
+    font-size: large;
+   }
+    
+}
+
+.welcomeScreen, .quizScreen, .scoreScreen {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomeScreen {
+    
+    img {
+        width: 100%;
+        margin-top: 2%;    
+        @media (min-width: 1180px){
+            width: 43%;
+            margin-left: 25%;
+            margin-top: 1%;
+        }
+    }
+
+
+    h1 {
+        font-size: 28px;
+        padding-top: 5%;
+        margin-right: 2%;
+        margin-left: 2%;
+        text-align: center;
+        color:rgb(233, 103, 71);
+        @media (min-width: 1180px){
+            width: 45%;
+            margin-left: 25%;
+            margin-top: -5%;
+        }
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        @media (min-width: 1180px){
+            width: 50%;
+            margin-left: 25%;
+        }
+    }
+    #name {
+        margin-top: 3%;
+        @media (min-width: 1180px){
+           margin-top: 1%;
+        }
+    }
+
+    #start {
+        display: block;
+        margin-top: 3%;
+        background-color: rgb(51, 109, 255);
+        color: white;
+        @media (min-width: 1180px){
+            margin-top: 2%;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    h2{
+        color: rgb(255, 221, 0);
+        margin-top: 5%;
+        text-align: center;
+        @media (min-width: 1180px){
+            margin-top: 1%;
+        }
+    }
+}
+
+.quizScreen {
+    display: none;
+    img {
+        width: 100%;
+        margin-top: 30px;
+        @media (min-width: 1180px){
+            width: 43%;
+            margin-left: 25%;
+            margin-top: 1%;
+        }
+    }
+
+    h1 {
+        margin-top: 10%;
+        text-align: center;
+        color:rgb(233, 103, 71);
+        @media (min-width: 1180px){
+            margin-top: 3%;
+        }
+    }
+
+    h2 {
+        margin-top: 10%;
+        margin-left: 10%;
+        color: rgb(78, 127, 251);
+    }
+
+    h4 {
+        margin-top: 3%;
+        margin-left: 5%;
+        color:rgb(255, 221, 0)
+    }
+
+    h5 {
+        margin-top: 5%;
+        color: rgb(233, 103, 71);
+    }
+
+    h6 {
+        margin-top: 2%;
+    }
+
+    li {
+        margin-left: -7%;
+        margin-top: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left:5%;
+        display: flex;
+        border: 2px solid;
+        border-color:rgb(78, 127, 251);
+        background-color:rgb(78, 127, 251);
+        margin-bottom: 2%;
+        border-radius: 150px;
+    }
+    
+    label {
+        margin-left: 2%;
+        color: white;
+    }
+   
+
+    p {
+        margin-top: 5%;
+    }
+
+    .card {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        @media (min-width: 1180px){
+            width: 60%;
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+    }
+
+    .btn.btn-primary {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 9%;
+        margin-bottom: 10%;
+    }
+
+    .answer-card {
+        display: none;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+}
+
+.scoreScreen {
+    display: none;
+
+    .imageScore {
+        width: 100%;
+        margin-top: 2%;
+        @media (min-width: 1180px){
+            margin-left: 27%;
+            width: 43%;
+        }
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 5%;
+        text-align: center;
+        color: rgb(233, 103, 71);
+        @media (min-width: 1180px){
+            margin-top: 3%;
+        }
+    }
+    p {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(78, 127, 251);
+        @media (min-width: 1180px){
+            margin-top: 2%;
+        }
+    }
+
+    .encouragement {
+        font-size: 18px;
+        color: black;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+
+    .coupe {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 5%;
+        @media (min-width: 1180px){
+            width: 23%;
+            margin-left: 39%;
+            margin-top: 1%;
+        }
+    }
+    
+
+    h2 {
+        margin-top: 5%;
+        text-align: center;
+        font-size: 20px;
+        color: rgb(255, 221, 0);
+        @media (min-width: 1180px){
+        margin-top: -5%;
+        }
+    }
+
+    ul {
+        @media (min-width: 1180px){
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+
+    li {
+        padding-top: 3%;
+    }
+
+    .score {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        
+    }
+
+    #restart {
+        background-color: rgb(51, 109, 255);
+        margin-left: 30%;
+        margin-right: 30%;
+        color: white;
+    }
+}
+
+

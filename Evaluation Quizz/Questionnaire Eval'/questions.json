@@ -1,0 +1,168 @@
+[
+            
+            {
+                "question": "Quel est rôle du HTML ?",
+                "reponses": ["Mettre en forme du texte", "Créer des sites e-commerce", "Pour optimiser son référencement", "Ordonner du contenu"],
+                "correction": 4,
+                "information": "Le HTML est un langage de balisage. Son rôle est de donner du sens et de structurer du contenu, afin d'indiquer à un navigateur comment celui-ci doit afficher la page." 
+            },
+        
+            {
+                "question": "Pour définir un titre DANS une page HTML, on utilise...",
+                "reponses": ["L'élément title", "L'élément head", "Un élément h1, h2, ... h6", "L'élément footer"],
+                "correction": 3,
+                "information" : "Pour définir un titre dans une page HTML, on utilise un élément de type 'h'. L'élément title est utilisé pour définir le titre DE la page (qui s'affichera dans la barre haute du navigateur)." 
+            },
+            {
+                "question": "Pour créer un lien vers la page d'accueil de Wikipédia, on écrira...",
+                "reponses": ["<a target='http://wikipedia.org'>Wikipédia</a>", "<a href='http://wikipedia.org'>", "<a href='http://wikipedia.org'>Wikipédia</a>", "<a target='http://wikipedia.org'>"],
+                "correction": 3,
+                "information" : "L'élément a est constitué d'une paire de balises (balises ouvrante et fermante) ainsi que d'un contenu cliquable. Cet élément doit obligatoirement être accompagné de son attribut href." 
+            },
+        
+            {
+                "question": "Lorsque vous utilisez l'élément a, vous devez obligatoirement préciser...",
+                "reponses": ["Un attribut target", "Un attribut href", "Deux attributs href et target", "Un attribut submit"],
+                "correction": 2,
+                "information" : "Seul l'attribut href est nécessaire au bon fonctionnement de l'élément a." 
+            },
+            {
+                "question": "Laquelle de ces syntaxes est correcte pour écrire un commentaire en HTML ?",
+                "reponses": ["<--Commentaire-->", "<!--Commentaire--!>","<--Commentaire--!>", "<!--Commentaire-->"],
+                "correction": 4,
+                "information" : "Un commentaire en HTML va s'écrire de cette manière : <!--Commentaire-->. Rappelez vous qu'on utilise un point d'exclamation seulement au début de la balise." 
+            },
+        
+            {
+                "question": "Pour indiquer qu'un contenu est très important, on utilise l'élément...",
+                "reponses": ["Strong", "Em", "Mark", "Submit"],
+                "correction": 1,
+                "information" : "Nous allons utiliser l'élément HTML strong pour marquer un contenu comme étant très important. L'élément em sert à indiquer qu'un contenu est 'plutôt important'." 
+            },
+            {
+                "question": "Quels éléments sont nécessaires pour créer une liste non-ordonnée ?",
+                "reponses": ["ul et li", "el et li", "ul et ol", "ol et li"],
+                "correction": 1,
+                "information" : "Pour créer une liste non-ordonnée, on utilise les éléments ul et li. 'ul' est l'abréviation de 'unordered list', c'est-à-dire 'liste non ordonnée' en français. 'li' signifie 'list item', ou 'élément de liste'." 
+            },
+        
+            {
+                "question": "Laquelle de ces syntaxes est correcte ?",
+                "reponses": ["<img>src='mon-image.jpg' alt='Une image'</img>", "<img src='mon-image.jpg' alt='Une image'>", "<img href='mon-image.jpg' alt='Une image'>","<img> src='mon-image.jpg' alt='Une image'</img>"],
+                "correction": 3,
+                "information" : "L'élément img est représenté par une unique balise orpheline et doit être obligatoirement accompagné de ses deux attributs src et alt."
+            },
+            {
+                "question": "A quoi sert l'attribut alt de l'élément img ?",
+                "reponses": ["A donner une description de l'image si celle-ci ne peut pas s'afficher", "A donner un lien alternatif vers l'image si le premier est cassé", "A afficher une deuxième image si la première ne peut pas s'afficher", "A donner un numéro de référence à l'image"],
+                "correction": 1,
+                "information": "L'attribut alt sert à décrire l'image. Cela est essentiel dans le cas où l'image ne pourrait pas être affichée ainsi que pour les personnes mal voyantes ou non voyantes." 
+            },
+        
+            {
+                "question": "Pourquoi doit-on toujours essayer d'avoir un code HTML valide ?",
+                "reponses": ["Pour optimiser son référencement", "Pour éviter des problèmes d'affichage futurs", "Pour soigner sa présentation de page", "Pour minimiser le nombre de bugs potentiels"],
+                "correction": 4,
+                "information" : "Enfin en matière de Web Performance, un code sans erreur est toujours plus rapide a exécuter par les navigateurs. Et cela reste valable aussi pour le CSS et le JS." 
+            },
+            {
+                "question": "Le rôle du CSS est de...",
+                "reponses": ["Mettre en forme du texte", "Ordonner du contenu", "Créer des sites e-commerce", "Pour optimiser son référencement"],
+                "correction": 1,
+                "information": "Le CSS sert à mettre en forme du contenu, en y ajoutant des 'styles'." 
+            },
+        
+            {
+                "question": "Quel est l'emplacement recommandé pour le CSS ?",
+                "reponses": ["Dans un élément HTML style", "Dans un attribut HTML style", "Dans un fichier '.css' séparé", "Dans un fichier '.html' séparé"],
+                "correction": 3,
+                "information": "Il est recommandé, pour des raisons de clarté et de maintenabilité du code, d'écrire le code CSS dans un fichier séparé." 
+            },
+            {
+                "question": "Qu'est ce que 'color' en CSS ? ",
+                "reponses": ["Un sélecteur", "Une propriété", "Une déclaration", "Un élément"],
+                "correction": 2,
+                "information": "'color' est ce qu'on appelle une propriété CSS. Une propriété CSS sert à modifier un style en particulier de nos éléments HTML." 
+            },
+        
+            {
+                "question": "Comment sélectionne t-on le div class='div1' en CSS ?",
+                "reponses": ["Avec le sélecteur 'div1'", "Avec le sélecteur '#div1'", "Avec le sélecteur '.div1'", "Avec le sélecteur 'div'"],
+                "correction": 3,
+                "information": "On peut sélectionner un élément possédant un attribut class en CSS en précisant la valeur de l'attribut précédée d'un point."
+            },
+            {
+                "question": "Laquelle de ces propositions est exacte ?",
+                "reponses": ["On doit donner une valeur unique à un attribut id mais pas à des attributs class", "On doit donner une valeur unique à un attribut class mais pas à des attributs id", "On doit donner une valeur unique à chaque attribut class et id dans une page", "On doit donner plusieur valeur à chaque attribut class et id dans une page"],
+                "correction": 1,
+                "information": "On peut tout à fait attribuer plusieurs attributs class avec la même valeur à plusieurs éléments HTML. En revanche, c'est interdit avec l'attribut id." 
+            },
+        
+            {
+                "question": "Un élément de type block...",
+                "reponses": ["Occupe toute la largeur disponible dans la page", "N'occupe que la largeur nécessaire à son contenu", "Occupe toute la largeur disponible dans son élément parent", "N'occupe pas toute la longeur nécessaire à son contenu"],
+                "correction": 3,
+                "information": "Un élément de type block va par défaut occuper toute la largeur qui lui est disponible, c'est à dire la largeur correspondant à son élément parent." 
+            },
+            {
+                "question": "Quelle est la différence majeure entre les éléments div et span ?",
+                "reponses": ["L'élément span est de type block, l'élément div est de type inline", "L'élément div est de type block, l'élément span est de type inline", "L'élément div sert de conteneur, au contraire de l'élément span", "l'élémnet span sert de conteneur, l'élément div es de type block"],
+                "correction": 2,
+                "information": "Les éléments div et span peuvent tous les deux servir de conteneurs pour des contenus différents. Cela est dû a fait que div est un élément block et span est un élément inline." 
+            },
+        
+            {
+                "question": "Pourquoi doit-on préciser plusieurs valeurs pour la propriété font-family ?",
+                "reponses": ["Pour laisser la possibilité à l'utilisateur de choisir celle qu'il préfère", "Car certaines polices peuvent ne pas être lues par un navigateur", "Il n'est pas nécessaire de préciser plusieurs valeurs","Car ces polices vont pouvoir être lues par tous les navigateurs"],
+                "correction": 2,
+                "information": "Certaines versions de certains navigateurs peuvent ne pas supporter des polices spécifiques. Pour cela, nous préciserons toujours plusieurs noms de police en valeur de font-family." 
+            },
+            {
+                "question": "À l'aide de quelle balise peut-on lier un fichier JavaScript à une page HTML ?",
+                "reponses": ["<link>", "<meta>", "<css>", "<script>"],
+                "correction": 4,
+                "information": "La balise <script> est utilisée pour lier un fichier JavaScript permettant d'introduire de l'interaction dans la page." 
+            },
+        
+            {
+                "question": "Le créateur de JavaScript est :",
+                "reponses": ["Bill Gates", "Brendan Eich", "Guido van Rossum", "James Gosling et Patrick Naughton"],
+                "correction": 2,
+                "information": "JavaScript a été créé en 1995 par Brendan Eich et intégré au navigateur web Netscape Navigator 2.0." 
+            },
+            {
+                "question": "Comment pouvez-vous ajouter un commentaire dans un code JavaScript?",
+                "reponses": ["//Ceci est un commentaire", "Ceci est un commentaire", "#Ceci est un commentaire", "/Ceci est un commentaire"],
+                "correction": 1,
+                "information": "Pour écrire un commentaire monoligne, on utilisera un double slash // qui sera suivi du texte de notre commentaire (ou éventuellement la syntaxe multilignes). " 
+            },
+        
+            {
+                "question": "Quelle est la syntaxe correct de la boucle while?",
+                "reponses": ["while (i <= 5)", "while i = 1 to 5", "while (i <= 5; i++)", "while (i=0; i <= 5; i++)"],
+                "correction": 1,
+                "information": "L'instruction while permet de créer une boucle qui s'exécute tant qu'une condition de test est vérifiée. La condition est évaluée avant d'exécuter l'instruction contenue dans la boucle. while (condition)." 
+            },
+            {
+                "question": "Lesquels des éléments suivants est un événement de la souris?",
+                "reponses": ["onmousescroller", "onclick", "onmouseover", "onmousemove"],
+                "correction": 2,
+                "information": "les éléments onclick onmouseover et onmousemove sont des événements de la sourie" 
+            },
+        
+            {
+                "question": "Quel événement est spécifique au clavier?",
+                "reponses": ["onkeypress", "onkeydown", "onclick", "onfocus"],
+                "correction": 1,
+                "information": "Les attributs d'événement onkeypress se déclenche lorsque l'utilisateur appuie sur une touche du clavier." 
+            },
+            {
+                "question": " Vous travaillez sur un projet JavaScript. Lequel des énoncés suivants décrit correctement les relations entre JavaScript et les « objets »?",
+                "reponses": ["JavaScript est basé sur les objets", "JavaScript est orienté objet", "JavaScript n'a pas de relation avec les objets", "JavaScript est orienté objet"],
+                "correction": 4,
+                "information": "JavaScript est un langage de script orienté objet. Un objet est une entité qui peut être vue comme indépendante et qui va contenir un ensemble de variables (qu’on va appeler propriétés) et de fonctions (qu’on appellera méthodes). Ces objets vont pouvoir interagir entre eux." 
+            }
+]
+
+
+

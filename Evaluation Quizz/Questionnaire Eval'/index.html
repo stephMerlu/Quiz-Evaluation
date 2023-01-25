@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Projet questionnaire dev'</title>
+</head>
+<body>
+    <header class="header">
+        <div><img src="/image/logo.png" alt=""></div>
+        <h1>Full Stack Center</h1>
+    </header>
+    <section class="welcomeScreen">
+        <div>
+            <img src="image/fond-questionnaire.jpg" alt="">
+        </div>
+        <article>
+             <h1>Bienvenue pour commencer le questionnaire veuillez rentrer votre nom :</h1>
+        <form class="login">
+            <label for="name"><input type="text" id="name" placeholder="Entrez votre nom"/></label>
+        
+        <input class="hidden btn-start" type="submit" id="start" value="Commencer">
+        </form>
+        <h2>Rentrez dans le monde des développeurs web</h2>
+        </article>
+    </section>
+    <section class="quizScreen">
+        <div>
+            <img src="image/422562e8-0358-462a-8dca-301eeb611c93.jpg" alt="">
+        </div>
+        <h1>Testez vos connaisance en HTML, CSS et JavaScript</h1>
+        <div class="card">
+            <h2 class="card-title">Question :</h2>
+            <div class="card-body">
+                <article class="question-card">
+                    <h4 class="card-text" id="question">Quel est le rôle du HTML ?</h4>
+                <ul class="choises">
+                    
+                    <li class="li"><input class="choix" name="reponse" type="radio" id="reponse1" value="1"> <label class="label" for="reponse1">Mettre en forme du texte</label> </li>
+                    <li class="li" ><input class="choix" name="reponse" type="radio" id="reponse2" value="2">  <label class="label" for="reponse2" >Ordonner du contenu</label> </li>
+                    <li class="li"><input class="choix" name="reponse" type="radio" id="reponse3" value="3"> <label class="label"  for="reponse3">Créer des sites e-commerce</label> </li>
+                    <li class="li"><input class="choix" name="reponse" type="radio" id="reponse4" value="4">  <label class="label" for="reponse4">D'animer un site internet</label> </li>
+                
+                </ul>
+                <a href="#question" class="btn btn-primary ">Valider</a>
+                </article>
+                <article class="answer-card">
+                    <h5>Ton score est de : </h5>
+                    <h6 class="score"></h6>
+                    <h6>Plus d'info :</h6>
+                    <p class="info">Le HTML est un langage de balisage. Son rôle est de donner du sens et de structurer du contenu, afin d'indiquer à un navigateur comment celui-ci doit afficher la page.</p>
+                    <a href="#question" id="next" class="btn btn-primary ">Question suivante</a>
+                </article>
+            </div>
+          </div>
+    </section>
+    <section class="scoreScreen">
+        <div >
+            <img class="imageScore" src="/image/1661839693phpYzJa8k.jpeg" alt="">
+        </div> 
+        <h1 class="nom">Ton score est de :</h1>
+        <p class="scoreFinal">Score</p>
+        <p class="encouragement">Paragraphe encoragement</p>
+        <div>
+            <img class="coupe" src="/image/vainqueur-coupe-concept-medaille-or_1284-13591.jpg" alt="">
+        </div>
+        <article class="score">
+            <h2>Le top 5 des meilleurs</h2>
+            <ul class="tableauScore">    
+            </ul>
+        </article>
+        <button  id="restart" value="Recommencer">Recommencer</button>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
